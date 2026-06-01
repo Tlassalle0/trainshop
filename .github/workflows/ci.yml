@@ -40,4 +40,3 @@ steps:
   # 14. Construire l'image Docker du frontend
   - name: Build Frontend Docker image
     run: docker build -t frontend-image ./frontend
-```
