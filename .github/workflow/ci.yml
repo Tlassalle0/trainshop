@@ -12,7 +12,6 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
 
-```
 steps:
   # 9. Récupérer le code
   - name: Checkout code
