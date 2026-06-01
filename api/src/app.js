@@ -41,7 +41,7 @@ app.get('/about', async (req, res) => {
   })
 })
 
-app.get('/products', async (req, res) => {
+app.get('/products_error_string', async (req, res) => {
   try {
     const result = await pool.query(
       'SELECT id, name, description, price_cents, stock FROM products ORDER BY id ASC'

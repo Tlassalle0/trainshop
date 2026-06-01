@@ -27,6 +27,7 @@ document.querySelector('#load-products').addEventListener('click', async () => {
         <p>${product.description}</p>
         <p class="price">${(product.price_cents / 100).toFixed(2)} €</p>
         <p>Stock : ${product.stock}</p>
+        <p>Banane</p>
       </article>
     `).join('');
   } catch (error) {
